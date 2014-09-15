@@ -13,6 +13,42 @@
   <body>
     <h1>tachyons text transform</h1>
     <h2>Examples</h2>
+
+.ttc { text-transform: capitalize; }
+.ttu { text-transform: uppercase; letter-spacing: .2em; }
+  .ttc-ns { text-transform: capitalize; }
+  .ttu-ns { text-transform: uppercase; letter-spacing: .2em; }
+  .ttc-m { text-transform: capitalize; }
+  .ttu-m { text-transform: uppercase; letter-spacing: .2em; }
+  .ttc-l { text-transform: capitalize; }
+  .ttu-l { text-transform: uppercase; letter-spacing: .2em; }
+    <pre>
+<code>
+/*
+
+   TEXT TRANSFORM
+
+*/
+
+.ttc { text-transform: capitalize; }
+.ttu { text-transform: uppercase; letter-spacing: .2em; }
+
+@include break(not-small) {
+  .ttc-ns { text-transform: capitalize; }
+  .ttu-ns { text-transform: uppercase; letter-spacing: .2em; }
+}
+
+@include break(medium) {
+  .ttc-m { text-transform: capitalize; }
+  .ttu-m { text-transform: uppercase; letter-spacing: .2em; }
+}
+
+@include break(large) {
+  .ttc-l { text-transform: capitalize; }
+  .ttu-l { text-transform: uppercase; letter-spacing: .2em; }
+}
+</code>
+</pre>
     <a href="http://npmjs.org/package/tachyons-text-transform" title="tachyons-text-transform">View package on npm</a>
   </body>
 </html>
