@@ -8,6 +8,34 @@ npm install --save-dev tachyons-text-transform
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   TEXT TRANSFORM
+
+*/
+
+.ttc { text-transform: capitalize; }
+.ttu { text-transform: uppercase; letter-spacing: .2em; }
+
+@include break(not-small) {
+  .ttc-ns { text-transform: capitalize; }
+  .ttu-ns { text-transform: uppercase; letter-spacing: .2em; }
+}
+
+@include break(medium) {
+  .ttc-m { text-transform: capitalize; }
+  .ttu-m { text-transform: uppercase; letter-spacing: .2em; }
+}
+
+@include break(large) {
+  .ttc-l { text-transform: capitalize; }
+  .ttu-l { text-transform: uppercase; letter-spacing: .2em; }
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
