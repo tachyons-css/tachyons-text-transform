@@ -1,6 +1,6 @@
 {
   "name": "tachyons-text-transform",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "style": "tachyons-text-transform.css",
   "homepage": "http://mrmrs.io/tachyons-text-transform",
   "description": "Performance based css module.",
