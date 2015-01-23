@@ -1,4 +1,6 @@
-@import "queries";
+@custom-media --breakpoint-not-small screen and (max-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
 
@@ -9,17 +11,17 @@
 .ttc { text-transform: capitalize; }
 .ttu { text-transform: uppercase; letter-spacing: .2em; }
 
-@include break(not-small) {
+@media (--breakpoint-not-small) {
   .ttc-ns { text-transform: capitalize; }
   .ttu-ns { text-transform: uppercase; letter-spacing: .2em; }
 }
 
-@include break(medium) {
+@media (--breakpoint-medium) {
   .ttc-m { text-transform: capitalize; }
   .ttu-m { text-transform: uppercase; letter-spacing: .2em; }
 }
 
-@include break(large) {
+@media (--breakpoint-large) {
   .ttc-l { text-transform: capitalize; }
   .ttu-l { text-transform: uppercase; letter-spacing: .2em; }
 }
