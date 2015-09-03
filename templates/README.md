@@ -1,41 +1,22 @@
-# TACHYONS-TEXT-TRANSFORM
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-text-transform
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-   TEXT TRANSFORM
-
-*/
-
-.ttc { text-transform: capitalize; }
-.ttu { text-transform: uppercase; letter-spacing: .2em; }
-
-@include break(not-small) {
-  .ttc-ns { text-transform: capitalize; }
-  .ttu-ns { text-transform: uppercase; letter-spacing: .2em; }
-}
-
-@include break(medium) {
-  .ttc-m { text-transform: capitalize; }
-  .ttu-m { text-transform: uppercase; letter-spacing: .2em; }
-}
-
-@include break(large) {
-  .ttc-l { text-transform: capitalize; }
-  .ttu-l { text-transform: uppercase; letter-spacing: .2em; }
-}
+<%= srcCSS %>
 ```
 
 ## Author
