@@ -1,18 +1,17 @@
 {
   "name": "tachyons-text-transform",
-  "version": "3.0.2",
-  "style": "tachyons-text-transform.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-text-transform",
+  "version": "3.0.3",
+  "style": "src/tachyons-text-transform.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-text-transform.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-text-transform/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-text-transform",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",

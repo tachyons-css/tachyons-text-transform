@@ -1,4 +1,4 @@
-# tachyons-text-transform 2.1.0
+# tachyons-text-transform 3.0.3
 
 Performance based css module.
 
