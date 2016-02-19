@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-250 | 20 | 24
+212 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -63,29 +63,25 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 */
 .ttc { text-transform: capitalize; }
 .ttl { text-transform: lowercase; }
-.ttn { text-transform: none; }
 .ttu { text-transform: uppercase; }
-.caps { text-transform: uppercase; letter-spacing: .15em; }
+.ttn { text-transform: none; }
 @media screen and (min-width: 48em) {
  .ttc-ns { text-transform: capitalize; }
  .ttl-ns { text-transform: lowercase; }
- .ttn-ns { text-transform: none; }
  .ttu-ns { text-transform: uppercase; }
- .caps-ns { text-transform: uppercase; letter-spacing: .15em; }
+ .ttn-ns { text-transform: none; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .ttc-m { text-transform: capitalize; }
  .ttl-m { text-transform: lowercase; }
- .ttn-m { text-transform: none; }
  .ttu-m { text-transform: uppercase; }
- .caps-m { text-transform: uppercase; letter-spacing: .15em; }
+ .ttn-m { text-transform: none; }
 }
 @media screen and (min-width: 64em) {
  .ttc-l { text-transform: capitalize; }
  .ttl-l { text-transform: lowercase; }
- .ttn-l { text-transform: none; }
  .ttu-l { text-transform: uppercase; }
- .caps-l { text-transform: uppercase; letter-spacing: .15em; }
+ .ttn-l { text-transform: none; }
 }
 ```
 
