@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-212 | 16 | 16
+210 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -83,19 +83,19 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .ttl { text-transform: lowercase; }
 .ttu { text-transform: uppercase; }
 .ttn { text-transform: none; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .ttc-ns { text-transform: capitalize; }
  .ttl-ns { text-transform: lowercase; }
  .ttu-ns { text-transform: uppercase; }
  .ttn-ns { text-transform: none; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .ttc-m { text-transform: capitalize; }
  .ttl-m { text-transform: lowercase; }
  .ttu-m { text-transform: uppercase; }
  .ttn-m { text-transform: none; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .ttc-l { text-transform: capitalize; }
  .ttl-l { text-transform: lowercase; }
  .ttu-l { text-transform: uppercase; }
