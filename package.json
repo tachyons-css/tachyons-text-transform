@@ -1,6 +1,6 @@
 {
   "name": "tachyons-text-transform",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "style": "src/tachyons-text-transform.css",
   "main": "src/tachyons-text-transform.css",
   "description": "Performance based css module.",
