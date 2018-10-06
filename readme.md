@@ -1,4 +1,4 @@
-# tachyons-text-transform 4.0.5
+# tachyons-text-transform 4.0.6
 
 Performance based css module.
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-text-transform@4.0.5/css/tachyons-text-transform.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-text-transform@4.0.6/css/tachyons-text-transform.min.css" />
 ```
 
 ##### Locally
